@@ -1,0 +1,22 @@
+<html>
+	<head> 
+<style>
+html{
+        background-color:black;
+        color:white;
+        font-family: Verdana, Geneva, sans-serif;
+}
+h1{
+        font-family: Impact, Charcoal, sans-serif;
+}
+		</style></head>
+   <body>
+	   <h1> Welcome to the Autograder! Please upload your add.go file below, and then hit submit. </h1>
+      
+      <form action = "http://35.153.141.110:5000/uploader" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+   </body>
+</html>
